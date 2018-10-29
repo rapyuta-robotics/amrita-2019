@@ -20,7 +20,7 @@
         git clone https://github.com/rapyuta-robotics/amrita-2019.git
         wstool init .
         wstool update 
-	rosdep update
+	    rosdep update
         rosdep install --from-paths . --ignore-src --rosdistro kinetic
 
 5. Configure and build the workspace:
