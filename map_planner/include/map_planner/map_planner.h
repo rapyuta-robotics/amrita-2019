@@ -59,6 +59,6 @@ namespace amrita2019 {
         ~AStarPlanner(){}
   };
 
-};  // namespace nav_core
+};  // namespace amrita2019
 
 #endif  // MAP_PLANNER_MAP_PLANNER_H
