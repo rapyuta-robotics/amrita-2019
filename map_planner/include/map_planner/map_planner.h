@@ -1,10 +1,10 @@
 #ifndef MAP_PLANNER_MAP_PLANNER_H
 #define MAP_PLANNER_MAP_PLANNER_H
 
+#include <iostream>
+#include <string>
 #include <vector>
 
-#include <ros/ros.h>
-#include <ros/package.h>
 
 namespace amrita2019 {
 

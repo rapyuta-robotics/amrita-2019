@@ -3,19 +3,20 @@
 using namespace amrita2019;
 
 void Planner::initialize(std::string map_name /*,DEFINE YOUR DATASTRUCTURE e.g GRAPH*/) {
+    /**
+    get the map_name, for non-ROS users, get the path directly and open the file in C++
+
     std::string map_path = ros::package::getPath("map_planner") + "/data" + "/" + map_name;
-    ROS_INFO("Initializing the planner with %s", map_path.c_str());
-    /** 
     PLEASE FILL IN YOUR LOGIC TO OPEN THIS FILE AND CONVERT TO THE DATASTRUCTURE OF YOUR CHOICE
     **/
 }
 
 bool DFSPlanner::makePlan(const Pose& start, const Pose& goal, std::vector<Pose>& plan) {
-    ROS_ERROR("Yet to be implemented");
+    std::cout << "Yet to be implemented" << std::endl;
     return false;
 }
 
 bool AStarPlanner::makePlan(const Pose& start, const Pose& goal, std::vector<Pose>& plan) {
-    ROS_ERROR("Yet to be implemented");
+    std::cout << "Yet to be implemented" << std::endl;
     return false;
 }

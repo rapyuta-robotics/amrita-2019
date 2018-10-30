@@ -2,7 +2,7 @@
 
 int main (int argc, char *argv[]) {
 
-    ROS_INFO("Planner executable called");
+    std::cout << "Planner executable called" << std::endl;
     std::string map_name = "maze.pgm";
 
     amrita2019::AStarPlanner astar; // construct astar planner
