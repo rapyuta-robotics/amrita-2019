@@ -5,7 +5,7 @@
 
 1. Build with CMake
 
-        git clone https://github.com/rapyuta-robotics/amrita-2019.git
+        git clone -b cmake https://github.com/rapyuta-robotics/amrita-2019.git
         mkdir build
         cd build 
 	    make
