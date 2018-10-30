@@ -3,10 +3,6 @@ project(map_planner)
 
 add_compile_options(-std=c++11)
 
-
-## System dependencies are found with CMake's conventions
-find_package(Boost REQUIRED COMPONENTS filesystem)
-
 ###########
 ## Build ##
 ###########
