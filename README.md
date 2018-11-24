@@ -17,7 +17,7 @@
 
 4. Download the required repositories and install any dependencies:
 
-        git clone https://github.com/rapyuta-robotics/amrita-2019.git
+        git clone https://github.com/rapyuta-robotics/search-ws.git
         wstool init .
         wstool update 
 	    rosdep update
